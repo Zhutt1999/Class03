@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dht-cd-11i">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bJp-M5-BO7">
     <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="o80-bN-bGr">
             <objects>
-                <viewController id="dht-cd-11i" sceneMemberID="viewController">
+                <viewController id="dht-cd-11i" customClass="ViewController" customModule="Class03" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5ti-hd-Te3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
@@ -38,10 +38,10 @@
             </objects>
             <point key="canvasLocation" x="1811.594202898551" y="130.58035714285714"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="blC-rk-E9P">
             <objects>
-                <viewController id="uzQ-YM-qbm" sceneMemberID="viewController">
+                <viewController id="uzQ-YM-qbm" customClass="LoginViewController" customModule="Class03" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DaC-Ol-UG9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -99,10 +99,10 @@
             </objects>
             <point key="canvasLocation" x="2573.913043478261" y="130.58035714285714"/>
         </scene>
-        <!--View Controller-->
+        <!--Master View Controller-->
         <scene sceneID="59S-V1-5Hh">
             <objects>
-                <viewController id="jfW-BV-df7" sceneMemberID="viewController">
+                <viewController id="jfW-BV-df7" customClass="MasterViewController" customModule="Class03" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q7m-YG-5KD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -129,10 +129,10 @@
             </objects>
             <point key="canvasLocation" x="3289.8550724637685" y="130.58035714285714"/>
         </scene>
-        <!--View Controller-->
+        <!--My Map View Controller-->
         <scene sceneID="Flc-qx-6AZ">
             <objects>
-                <viewController id="bJp-M5-BO7" sceneMemberID="viewController">
+                <viewController id="bJp-M5-BO7" customClass="MyMapViewController" customModule="Class03" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="feS-gL-dL4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -155,10 +155,10 @@
             </objects>
             <point key="canvasLocation" x="4992.753623188406" y="-310.04464285714283"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="Vlu-04-su0">
             <objects>
-                <viewController id="7or-Ya-PWT" sceneMemberID="viewController">
+                <viewController id="7or-Ya-PWT" customClass="DetailViewController" customModule="Class03" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ddA-ah-nvg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -210,10 +210,10 @@
             </objects>
             <point key="canvasLocation" x="4013.04347826087" y="130.58035714285714"/>
         </scene>
-        <!--View Controller-->
+        <!--My Web View Controller-->
         <scene sceneID="YYX-yg-jhW">
             <objects>
-                <viewController id="eM5-Ty-EwB" sceneMemberID="viewController">
+                <viewController id="eM5-Ty-EwB" customClass="MyWebViewController" customModule="Class03" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2ig-9F-cMo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
